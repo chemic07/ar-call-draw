@@ -2,7 +2,7 @@
 
 A real-time collaborative augmented reality drawing application built with Unity and Agora SDK. Draw in 3D space and see your creations synchronized across multiple devices in real-time!
 
-<img src="screenshots/banner.png" alt="App Banner" width="600">
+<img src="screenshots/banner.png" alt="App Banner" width="200">
 
 ## 📋 Table of Contents
 
@@ -44,35 +44,10 @@ A real-time collaborative augmented reality drawing application built with Unity
 
 ## 📸 Screenshots
 
-### 1. Splash Screen
-
-![Splash Screen](screenshots/splash-screen.jpg)
-_Initial loading screen with app branding_
-
-### 2. Login & Configuration
-
-![Input Screen](screenshots/input-screen.jpg)
-_Enter user credentials, channel name, and optional tokens_
-
-### 3. AR Scanning
-
-![AR Scanning](screenshots/ar-scanning.jpg)
-_Scanning environment for plane detection_
-
-### 4. Drawing Interface
-
-![Drawing Interface](screenshots/drawing-interface.jpg)
-_Main AR drawing interface with color panel and controls_
-
-### 5. Collaborative Session
-
-![Collaborative Drawing](screenshots/collaborative-session.jpg)
-_Multiple users drawing together in real-time_
-
-### 6. Performance Diagnostics
-
-![Debug Panel](screenshots/debug-panel.jpg)
-_Performance metrics and connection status monitoring_
+| Splash Screen | Login & Configuration | AR Scanning | Drawing Interface | Collaborative Session | Performance Diagnostics |
+|:--------------:|:--------------------:|:------------:|:-----------------:|:----------------------:|:-----------------------:|
+| <img src="screenshots/splash-screen.jpg" alt="Splash Screen" width="500"> | <img src="screenshots/input-screen.jpg" alt="Login & Configuration" width="150"> | <img src="screenshots/ar-scanning.jpg" alt="AR Scanning" width="150"> | <img src="screenshots/drawing-interface.jpg" alt="Drawing Interface" width="150"> | <img src="screenshots/collaborative-session.jpg" alt="Collaborative Session" width="150"> | <img src="screenshots/debug-panel.jpg" alt="Performance Diagnostics" width="150"> |
+| _Initial loading screen with app branding_ | _Enter user credentials, channel name, and optional tokens_ | _Scanning environment for plane detection_ | _Main AR drawing interface with color panel and controls_ | _Multiple users drawing together in real-time_ | _Performance metrics and connection status monitoring_ |
 
 ---
 
@@ -111,8 +86,8 @@ _Performance metrics and connection status monitoring_
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ar-collaborative-drawing.git
-cd ar-collaborative-drawing
+git clone https://github.com/chemic07/ar-call-draw
+cd ar-call-draw
 ```
 
 ### 2. Open in Unity
@@ -395,77 +370,6 @@ Enable debug panel (F12 or Debug button) to view:
 
 ---
 
-## 📝 Best Practices
-
-### For Developers
-
-1. **Token Security**
-
-   - Never commit tokens to version control
-   - Use environment variables or secure storage
-   - Implement server-side token generation for production
-
-2. **Performance Optimization**
-
-   - Test on target devices early
-   - Monitor frame rate during drawing
-   - Optimize line point density
-   - Use object pooling for frequently created objects
-
-3. **Error Handling**
-   - Always check for null references
-   - Implement proper error callbacks
-   - Log errors with context information
-   - Gracefully handle network failures
-
-### For Users
-
-1. **Network Requirements**
-
-   - Use stable WiFi or 4G/5G connection
-   - Minimum 2 Mbps upload/download speed
-   - Low latency preferred (<100ms)
-
-2. **Environment Setup**
-
-   - Good lighting (avoid direct sunlight)
-   - Textured surfaces for tracking
-   - Stable camera movement
-   - Clear space for drawing
-
-3. **Drawing Tips**
-   - Start with larger line widths
-   - Draw at comfortable distance (1-2m)
-   - Use contrasting colors
-   - Clear drawings periodically for performance
-
----
-
-## 🔐 Security Considerations
-
-### Production Deployment
-
-1. **Enable Token Authentication**
-
-   - Generate tokens server-side
-   - Set appropriate expiration times
-   - Implement token refresh mechanism
-
-2. **Channel Access Control**
-
-   - Implement user authentication
-   - Validate channel permissions
-   - Rate limit channel creation
-
-3. **Data Privacy**
-   - Encrypt sensitive data
-   - Implement GDPR compliance
-   - Handle user data according to privacy policy
-
----
-
-## 📚 Resources
-
 ### Documentation
 
 - [Agora RTC Documentation](https://docs.agora.io/en/video-calling/overview/product-overview)
@@ -476,7 +380,6 @@ Enable debug panel (F12 or Debug button) to view:
 
 - [Agora Developer Community](https://www.agora.io/en/community/)
 - [Unity Forums](https://forum.unity.com/)
-- [GitHub Issues](https://github.com/yourusername/ar-collaborative-drawing/issues)
 
 ---
 
@@ -498,25 +401,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 👥 Authors
-
-- **Your Name** - _Initial work_ - [YourGitHub](https://github.com/yourusername)
-
----
-
 ## 🙏 Acknowledgments
 
 - Agora.io for their excellent SDKs
 - Unity Technologies for AR Foundation
 - The open-source community for inspiration and support
-
----
-
-## 📞 Contact
-
-- **Email**: your.email@example.com
-- **Project Link**: [https://github.com/yourusername/ar-collaborative-drawing](https://github.com/yourusername/ar-collaborative-drawing)
-- **Website**: [https://yourwebsite.com](https://yourwebsite.com)
 
 ---
 
