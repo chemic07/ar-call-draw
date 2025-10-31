@@ -2,7 +2,7 @@
 
 A real-time collaborative augmented reality drawing application built with Unity and Agora SDK. Draw in 3D space and see your creations synchronized across multiple devices in real-time!
 
-![App Banner](screenshots/banner.png)
+<img src="screenshots/banner.png" alt="App Banner" width="600">
 
 ## 📋 Table of Contents
 
@@ -46,32 +46,32 @@ A real-time collaborative augmented reality drawing application built with Unity
 
 ### 1. Splash Screen
 
-![Splash Screen](screenshots/splash-screen.png)
+![Splash Screen](screenshots/splash-screen.jpg)
 _Initial loading screen with app branding_
 
 ### 2. Login & Configuration
 
-![Input Screen](screenshots/input-screen.jpeg)
+![Input Screen](screenshots/input-screen.jpg)
 _Enter user credentials, channel name, and optional tokens_
 
 ### 3. AR Scanning
 
-![AR Scanning](screenshots/ar-scanning.jpeg)
+![AR Scanning](screenshots/ar-scanning.jpg)
 _Scanning environment for plane detection_
 
 ### 4. Drawing Interface
 
-![Drawing Interface](screenshots/drawing-interface.jpeg)
+![Drawing Interface](screenshots/drawing-interface.jpg)
 _Main AR drawing interface with color panel and controls_
 
 ### 5. Collaborative Session
 
-![Collaborative Drawing](screenshots/collaborative-session.jpeg)
+![Collaborative Drawing](screenshots/collaborative-session.jpg)
 _Multiple users drawing together in real-time_
 
 ### 6. Performance Diagnostics
 
-![Debug Panel](screenshots/debug-panel.jpeg)
+![Debug Panel](screenshots/debug-panel.jpg)
 _Performance metrics and connection status monitoring_
 
 ---
